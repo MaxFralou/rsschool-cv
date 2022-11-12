@@ -2,9 +2,8 @@
 
 ## Student RS-school JS/FE
 
----
-
-## Contact information:
+ 
+**Contact information:**
 
 - **Phone:** +375292786425
 
@@ -16,15 +15,15 @@
 
 ---
 
-## In a nutshell
+**ABOUT ME**
 
 I can move my fingers quickly. I played the accordion in my youth.
 
-Now I'm going to try writing code. I hope my fingers are still as fast and the code will be as beautiful as music.
+Now I'm going to try writing code. I hope my fingers are still as fast and the code will be as beautiful as music :blush:
 
 ---
 
-## Skills *coming soon*:
+**SKILLS** *coming soon*
 
 - HTML, CSS, JavaScript
 
@@ -36,7 +35,7 @@ Now I'm going to try writing code. I hope my fingers are still as fast and the c
 
 - Developer tools and version control
 
-## Soft Skills:
+**SOFT SKILLS**
 
 - Good communication
 
@@ -48,22 +47,25 @@ Now I'm going to try writing code. I hope my fingers are still as fast and the c
 
 ---
 
-## Code Example:
+**CODE EXAMPLE**
 
-``` const assert = require("chai").assert;
-
-describe("Multiply", () => {
-  it("fixed tests", () => {
-    assert.strictEqual(multiply(1,1), 1);
-    assert.strictEqual(multiply(2,1), 2);
-    assert.strictEqual(multiply(2,2), 4);
-    assert.strictEqual(multiply(3,5), 15);   
-  });
-}); 
+``` 
+function multiply(a, b){
+  a * b
+}
 ```
 ---
 
+**Education**
 
+- [MDN Learn web development](https://developer.mozilla.org/en-US/docs/Learn)
+- [MIMO app](https://getmimo.com/) 
+
+---
+
+**Language**
+
+English level - *A2*
 
 
 
