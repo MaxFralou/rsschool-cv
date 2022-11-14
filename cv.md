@@ -55,10 +55,15 @@ function multiply(a, b){
 ```
 ---
 
+### **Сourses**
+
+- [MDN Learn web development](https://developer.mozilla.org/en-US/docs/Learn) (*In the process of studying*)
+
+---
+
 ### **Education**
 
-- [MDN Learn web development](https://developer.mozilla.org/en-US/docs/Learn)
-- [MIMO app](https://getmimo.com/) 
+- Permanent self-education
 
 ---
 
