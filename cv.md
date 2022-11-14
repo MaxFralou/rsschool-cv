@@ -1,9 +1,8 @@
-# Maksim Fralou
+# **Maksim Fralou**
 
 ## Student RS-school JS/FE
 
- 
-**Contact information:**
+### **Contact information:**
 
 - **Phone:** +375292786425
 
@@ -15,15 +14,15 @@
 
 ---
 
-**ABOUT ME**
+### **ABOUT ME**
 
 I can move my fingers quickly. I played the accordion in my youth.
 
-Now I'm going to try writing code. I hope my fingers are still as fast and the code will be as beautiful as music :blush:
+Now I'm going to try writing code. I hope my fingers are still as fast and the code will be as beautiful as music.
 
 ---
 
-**SKILLS** *coming soon*
+### **SKILLS** *coming soon*
 
 - HTML, CSS, JavaScript
 
@@ -35,7 +34,7 @@ Now I'm going to try writing code. I hope my fingers are still as fast and the c
 
 - Developer tools and version control
 
-**SOFT SKILLS**
+### **SOFT SKILLS**
 
 - Good communication
 
@@ -47,7 +46,7 @@ Now I'm going to try writing code. I hope my fingers are still as fast and the c
 
 ---
 
-**CODE EXAMPLE**
+### **CODE EXAMPLE**
 
 ``` 
 function multiply(a, b){
@@ -56,16 +55,13 @@ function multiply(a, b){
 ```
 ---
 
-**Education**
+### **Education**
 
 - [MDN Learn web development](https://developer.mozilla.org/en-US/docs/Learn)
 - [MIMO app](https://getmimo.com/) 
 
 ---
 
-**Language**
+### **Language**
 
 English level - *A2*
-
-
-
