@@ -1,7 +1,50 @@
-h1{
-    size: 300px;
-    color: red;
-    border: solid;
-    border-radius: 10px;
-    text-align: center;
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+
+.nav-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+
+}
+
+.nav-link {
+    line-height: 40px;
+    transition: .3s;
+    color: deeppink;
+
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    border: 1px solid red;
+}
+
+.main {
+    border: 1px solid green;
+}
+
+footer {
+    border: 1px solid blue;
 }
