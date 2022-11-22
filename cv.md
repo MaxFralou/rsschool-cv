@@ -55,18 +55,18 @@ function multiply(a, b){
 ```
 ---
 
-### **Сourses**
+### **COURSES**
 
 - [MDN Learn web development](https://developer.mozilla.org/en-US/docs/Learn) (*In the process of studying*)
 
 ---
 
-### **Education**
+### **EDUCATION**
 
 - Permanent self-education
 
 ---
 
-### **Language**
+### **LANGUAGE**
 
 English level - *A2*
