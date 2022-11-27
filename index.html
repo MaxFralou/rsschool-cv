@@ -14,15 +14,15 @@
     <header class="header">
         <div class="wrapper">
             <div class="header-wrapper">
-                <div class="header-avatar">
-                    <img src="./assets/img/avatar.jpg" alt="Maksim Fralou" class="header-avatar-pic">
-                </div>
                 <div class="header-name">
                     <h1 class="header-name-title">
                         <span class="header-name-title-last">FRALOU</span>
                         <span class="header-name-title-first">MAKSIM</span>
                     </h1>
                     <h3 class="header-status">Student RS-school JS/FE</h3>
+                </div>
+                <div class="header-avatar">
+                    <img src="./assets/img/avatar.jpg" alt="Maksim Fralou" class="header-avatar-pic">
                 </div>
             </div>
         </div>
@@ -33,39 +33,55 @@
         <div class="wrapper">
             <div class="main-wrapper">
 
-                <section class="main-about" id="about">
-                    <h2 class="main-about-title">ABOUT ME</h2>
-                    <p class="main-about-desc">I can move my fingers quickly. I played the accordion in my youth.<br>
-                        Now I'm going to try writing code. I hope my fingers are still as fast and the code will be as
-                        beautiful as music.
-                    </p>
-                </section>
+                <div class="main-about-conteiner">
+                    <section class="main-about" id="about">
+                        <h2 class="main-about-title">ABOUT ME</h2>
+                        <p class="main-about-desc">I can move my fingers quickly. I played the accordion.<br>
+                            Now I'm going to try writing code. I hope my fingers are still as fast and the code will be
+                            as
+                            beautiful as music.
+                        </p>
+                    </section>
 
-                <section class="main-skills">
-                    <h2 class="main-skills-title">SKILLS <em>coming soon</em></h2>
-                    <ul class="main-skills-list">
-                        <li class="main-skills-list-item"><abbr title="The HyperText Markup Language">HTML</abbr>, <abbr
-                                title="Cascading Style Sheets">CSS</abbr>, JavaScript</li>
-                        <li class="main-skills-list-item">CSS preprocessors (<abbr
-                                title="Syntactically Awesome Stylesheets">Sass</abbr>/<abbr
-                                title="Leaner Cascading Style Sheets">LESS</abbr>)</li>
-                        <li class="main-skills-list-item">JavaScript frameworks (Angular, Ember, React) and JavaScript
-                            libraries </li>
-                        <li class="main-skills-list-item">CSS frameworks (Foundation, Bootstrap) and responsive design
+                    <section class="main-skills">
+                        <h2 class="main-skills-title">SKILLS <em>coming soon</em></h2>
+                        <ul class="main-skills-list">
+                            <li class="main-skills-list-item"><abbr title="The HyperText Markup Language">HTML</abbr>,
+                                <abbr title="Cascading Style Sheets">CSS</abbr>, JavaScript
+                            </li>
+                            <li class="main-skills-list-item">CSS preprocessors (<abbr
+                                    title="Syntactically Awesome Stylesheets">Sass</abbr>/<abbr
+                                    title="Leaner Cascading Style Sheets">LESS</abbr>)</li>
+                            <li class="main-skills-list-item">JavaScript frameworks (Angular, Ember, React) and
+                                JavaScript
+                                libraries </li>
+                            <li class="main-skills-list-item">CSS frameworks (Foundation, Bootstrap) and responsive
+                                design
+                            </li>
+                            <li class="main-skills-list-item">Developer tools and version control</li>
+                        </ul>
+                    </section>
+
+                    <section class="main-soft-skills">
+                        <h2 class="main-soft-skills-title">
+                            SOFT SKILLS
+                        </h2>
+                        <ul class="main-soft-skills-list">
+                            <li class="main-soft-skills-list-item">Good communication</li>
+                            <li class="main-soft-skills-list-item">Teamwork</li>
+                            <li class="main-soft-skills-list-item">Creativity and willingness to learn</li>
+                            <li class="main-soft-skills-list-item">Problem-solving</li>
+                        </ul>
+                    </section>
+                </div>
+
+                <section class="main-projects">
+                    <h2 class="main-projects-title">PROJECTS</h2>
+                    <ul class="main-projects-list">
+                        <li class="main-projects-list-item">
+                            <a href="https://maxfralou.github.io/rsschool-cv/" class="main-projects-list-link"><abbr
+                                    title="Curriculum vitae">CV</abbr></a>
                         </li>
-                        <li class="main-skills-list-item">Developer tools and version control</li>
-                    </ul>
-                </section>
-
-                <section class="main-soft-skills">
-                    <h2 class="main-soft-skills-title">
-                        SOFT SKILLS
-                    </h2>
-                    <ul class="main-soft-skills-list">
-                        <li class="main-soft-skills-list-item">Good communication</li>
-                        <li class="main-soft-skills-list-item">Teamwork</li>
-                        <li class="main-soft-skills-list-item">Creativity and willingness to learn</li>
-                        <li class="main-soft-skills-list-item">Problem-solving</li>
                     </ul>
                 </section>
 
@@ -76,16 +92,6 @@
                     <code class="main-example-code">function multiply(a, b){<br>
                         &#160;&#160;a * b<br>
                       }</code>
-                </section>
-
-                <section class="main-projects">
-                    <h2 class="main-projects-title">PROJECTS</h2>
-                    <ul class="main-projects-list">
-                        <li class="main-projects-list-item">
-                            <a href="https://maxfralou.github.io/rsschool-cv/" class="main-projects-list-link"><abbr
-                                    title="Curriculum vitae">CV</abbr></a>
-                        </li>
-                    </ul>
                 </section>
 
                 <section class="main-courses">
@@ -121,7 +127,6 @@
                         </li>
                     </ul>
                 </section>
-
             </div>
         </div>
     </main>
@@ -130,44 +135,37 @@
     <footer class="footer">
         <div class="wrapper">
             <div class="footer-wrapper">
-
                 <section class="footer-contact">
                     <h3 class="footer-contact-title">Contact information</h3>
                     <ul class="footer-contact-list">
-                        <li class="footer-contact-list-item">Phone: +375292786425</li>
-                        <li class="footer-contact-list-item">Email: fralou@protonmail.com
-                        </li>
-                        <li class="footer-contact-list-item">
-                            <a href="https://facebook.com/maxfralou" class="footer-contact-list-link">facebook</a>
-                            <!-- <img src="./assets/svg/facebook-pic.svg" alt="Logo facrbook" class="footer-contact-list-link-pic"> -->
-                        </li>
+                        <li class="footer-contact-list-item"><img src="/assets/img/phone-pic.png" alt="Phone"
+                                class="footer-contact-list-item-pic">+375292786425</li>
+                        <li class="footer-contact-list-item"> <img src="/assets/img/mail-pic.png" alt="Mail"
+                                class="footer-contact-list-item-pic">fralou@protonmail.com</li>
                         <li class="footer-contact-list-item"><a href="https://github.com/MaxFralou"
-                                class="footer-contact-list-item">github</a></li>
+                                class="footer-contact-list-item-link"><img src="/assets/img/hithub-pic.png"
+                                    alt="GitHub logo" class="footer-contact-list-item-pic"></a></li>
                     </ul>
                 </section>
+
+                <div class="footer-rs-task-conteiner">
+                    <div class="footer-rs-school">
+                        <a href="https://rs.school/js/" class="footer-rs-school-link"><img src="./assets/svg/rs-pic.svg"
+                                alt="Logo RS-school" class="footer-rs-school-pic"></a>
+                    </div>
+
+                    <div class="footer-date">
+                        <snap class="footer-date-item"><time datetime="2022-12-05">2022</time></snap>
+                    </div>
+                </div>
 
                 <nav class="footer-nav">
                     <ul class="footer-nav-list">
                         <li class="footer-nav-list-item">1</li>
                         <li class="footer-nav-list-item">2</li>
                         <li class="footer-nav-list-item">3</li>
-                        <li class="footer-nav-list-item">4</li>
-                        <li class="footer-nav-list-item">5</li>
-                        <li class="footer-nav-list-item">6</li>
-                        <li class="footer-nav-list-item">7</li>
                     </ul>
                 </nav>
-
-                <div class="footer-date">
-                    <snap class="footer-date-item"><time datetime="2022-12-05">2022</time></snap>
-                </div>
-
-                <div class="footer-rs-school">
-                    <a href="https://rs.school/js/" class="footer-rs-school-link"><img src="./assets/svg/rs-pic.svg"
-                            alt="Logo RS-school" class="footer-rs-school-pic"></a>
-                </div>
-
-
             </div>
         </div>
     </footer>

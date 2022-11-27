@@ -67,7 +67,11 @@ html {
 *::after {
     box-sizing: inherit;
 }
+
+
 body {
+    margin: 0;
+    line-height: 1.15;
     font-family: 'Inter';
     color: black;
     letter-spacing: 2px;
@@ -81,9 +85,23 @@ body {
 /* Header start*/
 
  .header-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     background-color: #F8B195;
     border: 3px solid #000000;
     border-radius: 14px;
+     }
+
+     .header-avatar {
+    
+     }
+
+     .header-name {
+        grid-column: span 2;
+     }
+
+     .header-status {
+
      }
 
  
@@ -99,10 +117,68 @@ body {
 
 /*Main start*/
 
+.main-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 12px;
+}
+
+.main-about-conteiner {
+    grid-row: span 5;
+    background-color: #F67280;
+    border: 3px solid #000000;
+    border-radius: 14px;
+}
+
+.main-projects {
+    background-color: #9B59B6;
+    border: 3px solid #000000;
+    border-radius: 14px;
+}
+
+
+.main-example {
+    background-color: #E67E22;
+    border: 3px solid #000000;
+    border-radius: 14px;
+}
+
+.main-courses {
+    background-color: #16A085;
+    border: 3px solid #000000;
+    border-radius: 14px;
+}   
+
+.main-education {
+    background-color: #7F8C8D;
+    border: 3px solid #000000;
+    border-radius: 14px;
+}
+
+.main-language {
+    background-color: #E74C3C;
+    border: 3px solid #000000;
+    border-radius: 14px;
+}
+
+
+
+
+
 /*Main end*/
 
 /*Footer start*/
 
+.footer-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    background-color: #2C3E50;
+    border: 3px solid #000000;
+    border-radius: 14px;
+
+}
 
 /*Footer end*/
 
