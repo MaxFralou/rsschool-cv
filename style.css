@@ -339,3 +339,30 @@ body {
 }
 
 /*Footer end*/
+
+@media all and (max-width: 606px) {
+  .header-wrapper{
+    display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+  }
+
+    .main-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .footer-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+
+    
