@@ -167,7 +167,7 @@ body {
     padding: 12px;
 }
 
-.main-about-title{
+.main-about-title {
     border-bottom: 3px solid #000000;
 }
 
@@ -283,8 +283,8 @@ body {
 
 .footer-contact {
     padding: 12px;
-    
-      
+
+
 }
 
 .footer-contact-title {
@@ -295,7 +295,7 @@ body {
 .footer-contact-list {
     text-align: start;
     list-style-type: none;
-    
+
 }
 
 .footer-contact-list-item-link:hover,
@@ -307,9 +307,9 @@ body {
 
 
 .footer-rs-task-conteiner {
-   padding: 24px 12px;
-   text-align: center;
-   
+    padding: 24px 12px;
+    text-align: center;
+
 }
 
 .footer-rs-school-link:hover,
@@ -341,13 +341,20 @@ body {
 /*Footer end*/
 
 @media all and (max-width: 606px) {
-  .header-wrapper{
-    display: flex;
+    .header-wrapper {
+        display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         justify-content: center;
-  }
+    }
 
+    .header-name-title {
+        font-size: 52px;
+        line-height: 64px;
+        
+    }
+
+ 
     .main-wrapper {
         display: flex;
         flex-wrap: wrap;
@@ -363,6 +370,3 @@ body {
         justify-content: center;
     }
 }
-
-
-    
