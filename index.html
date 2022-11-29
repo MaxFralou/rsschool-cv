@@ -11,19 +11,20 @@
 
 
 <body>
-    <header class="header">
+    <header class="header" id="home">
         <div class="wrapper">
             <div class="header-wrapper">
                 <div class="header-name">
                     <h1 class="header-name-title">
-                        <span class="header-name-title-last">FRALOU</span>
-                        <span class="header-name-title-first">MAKSIM</span>
+                        FRALOU <br> MAKSIM
                     </h1>
-                    <h3 class="header-status">Student RS-school JS/FE</h3>
+
                 </div>
                 <div class="header-avatar">
                     <img src="./assets/img/avatar.jpg" alt="Maksim Fralou" class="header-avatar-pic">
+                    <h3 class="header-status">Student RS-school JS/FE</h3>
                 </div>
+
             </div>
         </div>
     </header>
@@ -34,8 +35,8 @@
             <div class="main-wrapper">
 
                 <div class="main-about-conteiner">
-                    <section class="main-about" id="about">
-                        <h2 class="main-about-title">ABOUT ME</h2>
+                    <section class="main-about">
+                        <h2 class="main-about-title" id="about">ABOUT ME</h2>
                         <p class="main-about-desc">I can move my fingers quickly. I played the accordion.<br>
                             Now I'm going to try writing code. I hope my fingers are still as fast and the code will be
                             as
@@ -44,7 +45,7 @@
                     </section>
 
                     <section class="main-skills">
-                        <h2 class="main-skills-title">SKILLS <em>coming soon</em></h2>
+                        <h2 class="main-skills-title" id="skills">SKILLS <em>coming soon</em></h2>
                         <ul class="main-skills-list">
                             <li class="main-skills-list-item"><abbr title="The HyperText Markup Language">HTML</abbr>,
                                 <abbr title="Cascading Style Sheets">CSS</abbr>, JavaScript
@@ -63,7 +64,7 @@
                     </section>
 
                     <section class="main-soft-skills">
-                        <h2 class="main-soft-skills-title">
+                        <h2 class="main-soft-skills-title" id="soft-skills">
                             SOFT SKILLS
                         </h2>
                         <ul class="main-soft-skills-list">
@@ -76,7 +77,7 @@
                 </div>
 
                 <section class="main-projects">
-                    <h2 class="main-projects-title">PROJECTS</h2>
+                    <h2 class="main-projects-title" id="projects">PROJECTS</h2>
                     <ul class="main-projects-list">
                         <li class="main-projects-list-item">
                             <a href="https://maxfralou.github.io/rsschool-cv/" class="main-projects-list-link"><abbr
@@ -86,7 +87,7 @@
                 </section>
 
                 <section class="main-example">
-                    <h2 class="main-example-title">
+                    <h2 class="main-example-title" id="code-example">
                         CODE EXAMPLE
                     </h2>
                     <code class="main-example-code">function multiply(a, b){<br>
@@ -95,7 +96,7 @@
                 </section>
 
                 <section class="main-courses">
-                    <h2 class="main-courses-title">COURSES</h2>
+                    <h2 class="main-courses-title" id="courses">COURSES</h2>
                     <ul class="main-courses-list">
                         <li class="main-courses-list-item">
                             <a href="https://developer.mozilla.org/en-US/docs/Learn"
@@ -107,7 +108,7 @@
                 </section>
 
                 <section class="main-education">
-                    <h2 class="main-education-title">EDUCATION</h2>
+                    <h2 class="main-education-title" id="education">EDUCATION</h2>
                     <ul class="main-education-list">
                         <li class="main-education-list-item">
                             <a href="https://bgam.by/" class="main-education-lis-link">Belarusian State Academy of
@@ -120,7 +121,7 @@
                 </section>
 
                 <section class="main-language">
-                    <h2 class="main-language-title">LANGUAGE</h2>
+                    <h2 class="main-language-title" id="language">LANGUAGE</h2>
                     <ul class="main-language-list">
                         <li class="main-language-item">
                             English level - <em>A2</em>
@@ -138,13 +139,12 @@
                 <section class="footer-contact">
                     <h3 class="footer-contact-title">Contact information</h3>
                     <ul class="footer-contact-list">
-                        <li class="footer-contact-list-item"><img src="/assets/img/phone-pic.png" alt="Phone"
-                                class="footer-contact-list-item-pic">+375292786425</li>
-                        <li class="footer-contact-list-item"> <img src="/assets/img/mail-pic.png" alt="Mail"
-                                class="footer-contact-list-item-pic">fralou@protonmail.com</li>
+                        
+                        <li class="footer-contact-list-item">+375292786425</li>
+                        <li class="footer-contact-list-item">fralou@protonmail.com</li>
                         <li class="footer-contact-list-item"><a href="https://github.com/MaxFralou"
-                                class="footer-contact-list-item-link"><img src="/assets/img/hithub-pic.png"
-                                    alt="GitHub logo" class="footer-contact-list-item-pic"></a></li>
+                            class="footer-contact-list-item-link"><img src="/assets/img/hithub-pic.png"
+                                alt="GitHub logo" class="footer-contact-list-item-pic"></a></li>
                     </ul>
                 </section>
 
@@ -155,15 +155,21 @@
                     </div>
 
                     <div class="footer-date">
-                        <snap class="footer-date-item"><time datetime="2022-12-05">2022</time></snap>
+                        <p class="footer-date-item"><time datetime="2022-12-05">2022</time></p>
                     </div>
                 </div>
 
                 <nav class="footer-nav">
                     <ul class="footer-nav-list">
-                        <li class="footer-nav-list-item">1</li>
-                        <li class="footer-nav-list-item">2</li>
-                        <li class="footer-nav-list-item">3</li>
+                        <li class="footer-nav-list-item"><a href="#home" class="footer-nav-list-link">Home</a></li>
+                        <li class="footer-nav-list-item"><a href="#about" class="footer-nav-list-link">About me </a></li>
+                        <li class="footer-nav-list-item"><a href="#skills" class="footer-nav-list-link">Skills</a></li>
+                        <li class="footer-nav-list-item"><a href="#soft-skills" class="footer-nav-list-link">Soft skills</a></li>
+                        <li class="footer-nav-list-item"><a href="#projects" class="footer-nav-list-link">Projects</a></li>
+                        <li class="footer-nav-list-item"><a href="#code-example" class="footer-nav-list-link">Code example</a></li>
+                        <li class="footer-nav-list-item"><a href="#courses" class="footer-nav-list-link">Courses</a></li>
+                        <li class="footer-nav-list-item"><a href="#education" class="footer-nav-list-link">Education</a></li>
+                        <li class="footer-nav-list-item"><a href="#language" class="footer-nav-list-link">Language</a></li>
                     </ul>
                 </nav>
             </div>
