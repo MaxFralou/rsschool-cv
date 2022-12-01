@@ -123,7 +123,6 @@ body {
 
 .header-name {
     justify-self: center;
-
 }
 
 .header-name-title {
@@ -132,13 +131,10 @@ body {
     padding: 72px 12px 12px 12px;
 }
 
-
 .header-avatar {
     justify-self: center;
     padding: 56px;
-
 }
-
 
 .header-avatar-pic {
     object-fit: cover;
@@ -275,27 +271,35 @@ body {
 .footer-wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 12px;
+    grid-template-rows: 1fr;
     background-color: #2C3E50;
     border: 3px solid #000000;
     border-radius: 14px;
 }
 
 .footer-contact {
-    padding: 12px;
-
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .footer-contact-title {
-    padding-left: 36px;
+    padding-left: 62px;
+    padding-right: 24px;
 }
 
-
 .footer-contact-list {
-    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     list-style-type: none;
+}
 
+.footer-contact-list-item-pic {
+    height: 64px;
+    width: 64px;
 }
 
 .footer-contact-list-item-link:hover,
@@ -304,12 +308,19 @@ body {
     opacity: .75;
 }
 
-
-
 .footer-rs-task-conteiner {
-    padding: 24px 12px;
+    padding-top: 78px;
+    padding-left: 38px;
+    padding-bottom: 32px;
+    margin-bottom: 12px;
+    color: black;
     text-align: center;
+}
 
+.footer-rs-school-pic {
+    height: max content 128px;
+    ;
+    width: auto;
 }
 
 .footer-rs-school-link:hover,
@@ -319,11 +330,12 @@ body {
 }
 
 .footer-nav {
-    padding: 12px 36px;
+    margin-top: 38px;
+    padding-right: 32x;
 }
 
 .footer-nav-list {
-    text-align: end;
+    text-align: center;
     list-style-type: none;
 }
 
@@ -351,10 +363,15 @@ body {
     .header-name-title {
         font-size: 52px;
         line-height: 64px;
-        
+        padding: 72px 12px 12px 24px;
+
     }
 
- 
+    .header-avatar {
+        padding: 12px 56px 56px 56px;
+
+    }
+
     .main-wrapper {
         display: flex;
         flex-wrap: wrap;
@@ -368,5 +385,16 @@ body {
         flex-wrap: wrap;
         flex-direction: column;
         justify-content: center;
+    }
+
+    .footer-rs-task-conteiner {
+        padding-top: 38px;
+        padding-left: 54px;
+        padding-right: 24px;
+        padding-bottom: 32px;
+        margin-bottom: 72px;
+        color: black;
+        text-align: center;
+
     }
 }
