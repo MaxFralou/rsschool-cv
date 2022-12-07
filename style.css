@@ -1,6 +1,405 @@
+/* inter-regular - latin */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+        url('./assets/fonts/inter-v12-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('./assets/fonts/inter-v12-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* inter-500 - latin */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+        url('./assets/fonts/inter-v12-latin-500.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('./assets/fonts/inter-v12-latin-500.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* inter-600 - latin */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+        url('./assets/fonts/inter-v12-latin-600.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('./assets/fonts/inter-v12-latin-600.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* inter-700 - latin */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+        url('./assets/fonts/inter-v12-latin-700.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('./assets/fonts/inter-v12-latin-700.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* inter-800 - latin */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    src: local(''),
+        url('./assets/fonts/inter-v12-latin-800.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('./assets/fonts/inter-v12-latin-800.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* inter-900 - latin */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    src: url('./assets/fonts/inter-v12-latin-900.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('./assets/fonts/inter-v12-latin-900.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('./assets/fonts/inter-v12-latin-900.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('./assets/fonts/inter-v12-latin-900.woff') format('woff'),
+        /* Modern Browsers */
+        url('./assets/fonts/inter-v12-latin-900.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('./assets/fonts/inter-v12-latin-900.svg#Inter') format('svg');
+    /* Legacy iOS */
+}
+
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
 body {
-    display: flex;
-    justify-content: space-between;
+    min-height: 100vh;
     margin: 0;
-    background-color: #0000;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 1.5;
+    font-family: 'Inter';
+    color: black;
+    letter-spacing: 2px;
+}
+
+.wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 12px 24px;
+    overflow-x: hidden;
+}
+
+/* Header start*/
+
+.header-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: stretch;
+    align-content: stretch;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    background-color: #F8B195;
+    border: 3px solid #000000;
+    border-radius: 14px;
+}
+
+
+.header-name {
+    justify-self: center;
+}
+
+.header-name-title {
+    font-size: 72px;
+    line-height: 82px;
+    padding: 72px 12px 12px 12px;
+}
+
+.header-avatar {
+    justify-self: center;
+    padding: 56px;
+}
+
+.header-avatar-pic {
+    object-fit: cover;
+    border: 3px solid #000000;
+    max-width: 100%;
+    height: auto;
+    border-radius: 14px;
+}
+
+/* Header end*/
+
+/*Main start*/
+
+.main-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 12px;
+}
+
+.main-about-conteiner {
+    grid-row: span 5;
+    background-color: #F67280;
+    border: 3px solid #000000;
+    border-radius: 14px;
+    padding: 12px;
+}
+
+.main-about-title {
+    border-bottom: 3px solid #000000;
+}
+
+.main-skills-title {
+    border-bottom: 3px solid #000000;
+}
+
+.main-soft-skills-title {
+    border-bottom: 3px solid #000000;
+}
+
+.main-projects {
+    background-color: #9B59B6;
+    border: 3px solid #000000;
+    border-radius: 14px;
+    padding: 12px;
+}
+
+.main-projects-title {
+    border-bottom: 3px solid #000000;
+}
+
+.main-projects-list-link {
+    color: white;
+    text-decoration: none;
+}
+
+.main-projects-list-link:hover,
+.main-projects-list-link:focus,
+.main-projects-list-link:active {
+    opacity: .75;
+}
+
+.main-example {
+    background-color: #E67E22;
+    border: 3px solid #000000;
+    border-radius: 14px;
+    padding: 12px;
+}
+
+.main-example-title {
+    border-bottom: 3px solid #000000;
+}
+
+.main-courses {
+    background-color: #16A085;
+    border: 3px solid #000000;
+    border-radius: 14px;
+    padding: 12px;
+}
+
+.main-courses-title {
+    border-bottom: 3px solid #000000;
+}
+
+.main-courses-list-link {
+    color: white;
+    text-decoration: none;
+}
+
+.main-courses-list-link:hover,
+.main-courses-list-link:focus,
+.main-courses-list-link:active {
+    opacity: .75;
+}
+
+.main-education {
+    background-color: #7F8C8D;
+    border: 3px solid #000000;
+    border-radius: 14px;
+    padding: 12px;
+}
+
+.main-education-title {
+    border-bottom: 3px solid #000000;
+}
+
+.main-education-lis-link {
+    color: white;
+    text-decoration: none;
+}
+
+.main-education-lis-link:hover,
+.main-education-lis-link:focus,
+.main-education-lis-link:active {
+    opacity: .75;
+}
+
+.main-language {
+    background-color: #E74C3C;
+    border: 3px solid #000000;
+    border-radius: 14px;
+    padding: 12px;
+}
+
+.main-language-title {
+    border-bottom: 3px solid #000000;
+}
+
+
+/*Main end*/
+
+/*Footer start*/
+
+.footer-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    background-color: #2C3E50;
+    border: 3px solid #000000;
+    border-radius: 14px;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-contact-title {
+    padding-left: 62px;
+    padding-right: 24px;
+}
+
+.footer-contact-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.footer-contact-list-item-pic {
+    height: 64px;
+    width: 64px;
+}
+
+.footer-contact-list-item-link:hover,
+.footer-contact-list-item-link:focus,
+.footer-contact-list-item-link:active {
+    opacity: .75;
+}
+
+.footer-rs-task-conteiner {
+    padding-top: 78px;
+    padding-left: 38px;
+    padding-bottom: 32px;
+    margin-bottom: 12px;
+    color: black;
+    text-align: center;
+}
+
+.footer-rs-school-pic {
+    height: max content 128px;
+    ;
+    width: auto;
+}
+
+.footer-rs-school-link:hover,
+.footer-rs-school-link:focus,
+.footer-rs-school-link:active {
+    opacity: .75;
+}
+
+.footer-nav {
+    margin-top: 38px;
+    padding-right: 32x;
+}
+
+.footer-nav-list {
+    text-align: center;
+    list-style-type: none;
+}
+
+.footer-nav-list-link {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-nav-list-link:hover,
+.footer-nav-list-link:focus,
+.footer-nav-list-link:active {
+    opacity: .75;
+}
+
+/*Footer end*/
+
+@media all and (max-width: 606px) {
+    .header-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header-name-title {
+        font-size: 52px;
+        line-height: 64px;
+        padding: 72px 12px 12px 24px;
+
+    }
+
+    .header-avatar {
+        padding: 12px 56px 56px 56px;
+
+    }
+
+    .main-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .footer-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer-rs-task-conteiner {
+        padding-top: 38px;
+        padding-left: 54px;
+        padding-right: 24px;
+        padding-bottom: 32px;
+        margin-bottom: 72px;
+        color: black;
+        text-align: center;
+
+    }
 }
