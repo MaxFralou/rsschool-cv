@@ -14,10 +14,10 @@
     <header class="header" id="home">
         <div class="wrapper">
             <div class="header-wrapper">
-               
+
                 <div class="header-name">
                     <h1 class="header-name-title">
-                        FRALOU <br> MAKSIM
+                        <span class="second-name">FRALOU</span> <br> <span class="first-name">MAKSIM</span>
                     </h1>
                 </div>
 
@@ -44,6 +44,41 @@
                         </p>
                     </section>
 
+                    <section class="experience" id="experience">
+                        <h2 class="experience-title">EXPERIENCE</h2>
+                        <ul class="exp-li">
+                            <strong>2012-2014</strong>
+                            <li>work in show business
+                                <ul>
+                                    <li>cover band performer</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="exp-li">
+                            <strong>2012-2017</strong>
+                            <li>Creating a family workshop: metal fabrication, art forging.
+                                <ul>
+                                    <li>marketing</li>
+                                    <li>procurement, logistics</li>
+                                    <li>production control</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="exp-li">
+                            <strong>2017-2020</strong>
+                            <li>household</li>
+                            <li>blogging</li>
+                        </ul>
+                        <ul class="exp-li">
+                            <strong>2020-present</strong>
+                            <li>Co-founder of the clothing brand.
+                                <ul>
+                                    <li>marketing</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+
                     <section class="main-skills" id="skills">
                         <h2 class="main-skills-title">SKILLS <em>coming soon</em></h2>
                         <ul class="main-skills-list">
@@ -53,7 +88,7 @@
                             <li class="main-skills-list-item">CSS preprocessors (<abbr
                                     title="Syntactically Awesome Stylesheets">Sass</abbr>/<abbr
                                     title="Leaner Cascading Style Sheets">LESS</abbr>)</li>
-                            <li class="main-skills-list-item">JavaScript frameworks (Angular, Ember, React) and
+                            <li class="main-skills-list-item">JavaScript frameworks (Angular, Vue, React) and
                                 JavaScript
                                 libraries </li>
                             <li class="main-skills-list-item">CSS frameworks (Foundation, Bootstrap) and responsive
@@ -91,9 +126,58 @@
                     <h2 class="main-example-title">
                         CODE EXAMPLE
                     </h2>
-                    <code class="main-example-code">function multiply&#40;a, b&#41;&#123;<br>
-                        &#160;&#160;a &#42; b<br>
-                        &#125;</code>
+
+                    <code class="main-example-code">
+                        <p>class Dad {</p>
+
+                            <p>&nbsp;constructor(age, job, residence, hobbies) {</p>
+                            
+                            <p>&nbsp;&nbsp;this.age = age;</p>
+                            
+                            <p>&nbsp;&nbsp;this.job = job;</p>
+                            
+                            <p>&nbsp;&nbsp;this.residence = residence;</p>
+                            
+                            <p>&nbsp;&nbsp;this.hobbies = hobbies;</p>
+                            
+                            <p>&nbsp;}</p>
+                                                                               
+                            <p>&nbsp;wakeUp() {</p>
+                            
+                            <p>&nbsp;&nbsp;console.log(&quot;Dad is waking up when the alarm clock rings...&quot;);</p>
+                            
+                            <p>&nbsp;}</p>
+                            
+                            <p>&nbsp;goToDayCare() {</p>
+                            
+                            <p>&nbsp;&nbsp;console.log(&quot;Dad is dropping off the kids at day care...&quot;);</p>
+                            
+                            <p>&nbsp;}</p>
+                            
+                            <p>&nbsp;goToWork() {</p>
+                            
+                            <p>&nbsp;&nbsp;console.log(&quot;Dad is going to work...&quot;);</p>
+                            
+                            <p>&nbsp;}</p>
+                            
+                            <p>&nbsp;drinkCoffee() {</p>
+                            
+                            <p>&nbsp;&nbsp;console.log(&quot;Dad is drinking coffee...&quot;);</p>
+                            
+                            <p>&nbsp;}</p>
+                            
+                            <p>}</p>
+                                               
+                            <p>const MAKSIM_FRALOU = new Dad(35, &quot;Developer&quot;, &quot;Minsk&quot;, [&quot;Music&quot;, &quot;Cooking&quot;]);</p>
+                            
+                            <p>MAKSIM_FRALOU.wakeUp();</p>
+                            
+                            <p>MAKSIM_FRALOU.goToDayCare();</p>
+                            
+                            <p>MAKSIM_FRALOU.goToWork();</p>
+                            
+                            <p>MAKSIM_FRALOU.drinkCoffee();</p></code>
+
                 </section>
 
                 <section class="main-courses" id="courses">
@@ -138,9 +222,8 @@
         <div class="wrapper">
             <div class="footer-wrapper">
                 <section class="footer-contact">
-                    <h3 class="footer-contact-title">Contact information</h3>
                     <ul class="footer-contact-list">
-                        <li class="footer-contact-list-item">+375292786425</li>
+                        <h3>Contact information:</h3>
                         <li class="footer-contact-list-item">fralou@protonmail.com</li>
                         <li class="footer-contact-list-item">
                             <figure>
@@ -152,7 +235,7 @@
                         </li>
                         <li class="footer-contact-list-item"><a href="https://github.com/MaxFralou"
                                 class="footer-contact-list-item-link"><img src="./assets/img/hithub-pic.png"
-                                    alt="GitHub logo" class="footer-contact-list-item-pic"></a></li>
+                                    alt="GitHub logo" class="footer-contact-list-item-pic gitHub-pic"></a></li>
                     </ul>
                 </section>
 
@@ -170,7 +253,10 @@
                 <nav class="footer-nav">
                     <ul class="footer-nav-list">
                         <li class="footer-nav-list-item"><a href="#home" class="footer-nav-list-link">Home</a></li>
-                        <li class="footer-nav-list-item"><a href="#about" class="footer-nav-list-link">About me </a>
+                        <li class="footer-nav-list-item"><a href="#about" class="footer-nav-list-link">About me</a>
+                        </li>
+                        <li class="footer-nav-list-item"><a href="#experience"
+                                class="footer-nav-list-link">Experience</a>
                         </li>
                         <li class="footer-nav-list-item"><a href="#skills" class="footer-nav-list-link">Skills</a></li>
                         <li class="footer-nav-list-item"><a href="#soft-skills" class="footer-nav-list-link">Soft

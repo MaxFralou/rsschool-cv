@@ -81,6 +81,7 @@
 
 html {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 *,
@@ -91,8 +92,8 @@ html {
 
 
 body {
-    min-height: 100vh;
-    margin: 0;
+    max-width: 1440px;
+    margin: 0 auto;
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -119,7 +120,6 @@ body {
     align-content: stretch;
     justify-content: space-between;
     width: 100%;
-    height: auto;
     background-color: #F8B195;
     border: 3px solid #000000;
     border-radius: 14px;
@@ -132,8 +132,13 @@ body {
 
 .header-name-title {
     font-size: 72px;
-    line-height: 82px;
-    padding: 72px 12px 12px 12px;
+    line-height: 140%;
+    letter-spacing: 16px;
+    padding: 109px 12px 12px 12px;
+}
+
+.first-name {
+    padding-left: 98px;
 }
 
 .header-avatar {
@@ -156,7 +161,7 @@ body {
 .main-wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     gap: 12px;
 }
 
@@ -169,6 +174,10 @@ body {
 }
 
 .main-about-title {
+    border-bottom: 3px solid #000000;
+}
+
+.experience-title {
     border-bottom: 3px solid #000000;
 }
 
@@ -285,26 +294,27 @@ body {
 .footer-contact {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.footer-contact-title {
-    padding-left: 62px;
-    padding-right: 24px;
+    align-items: flex-start;
 }
 
 .footer-contact-list {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     list-style-type: none;
+    padding-left: 20px;
 }
 
 .footer-contact-list-item-pic {
-    height: 64px;
-    width: 64px;
+    margin-left: 8px;
+    height: 42px;
+    width: 42px;
+}
+
+.gitHub-pic {
+    margin-right: 14px;
 }
 
 .footer-contact-list-item-link:hover,
@@ -314,18 +324,14 @@ body {
 }
 
 .footer-rs-task-conteiner {
-    padding-top: 78px;
-    padding-left: 38px;
-    padding-bottom: 32px;
-    margin-bottom: 12px;
+    padding-top: 90px;
     color: black;
     text-align: center;
 }
 
 .footer-rs-school-pic {
-    height: max content 128px;
-    ;
-    width: auto;
+    width: 50%;
+
 }
 
 .footer-rs-school-link:hover,
@@ -335,24 +341,25 @@ body {
 }
 
 .footer-nav {
-    margin-top: 38px;
-    padding-right: 32x;
+    margin-right: 20px;
 }
 
 .footer-nav-list {
-    text-align: center;
+    text-align: right;
     list-style-type: none;
 }
 
 .footer-nav-list-link {
     color: white;
     text-decoration: none;
+    transition: all .5s;
 }
 
 .footer-nav-list-link:hover,
 .footer-nav-list-link:focus,
 .footer-nav-list-link:active {
     opacity: .75;
+    text-decoration: underline;
 }
 
 /*Footer end*/
